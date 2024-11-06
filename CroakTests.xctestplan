@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "07773297-E0A8-452D-821A-C045E6E70010",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "distributor" : "com.apple.TestFlight",
+    "environmentVariableEntries" : [
+      {
+        "key" : "IDEPreferLogStreaming",
+        "value" : "YES"
+      }
+    ],
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Croak.xcodeproj",
+      "identifier" : "928479482BEF97B50078CE81",
+      "name" : "Croak"
+    },
+    "uiTestingScreenshotsLifetime" : "keepNever"
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Croak.xcodeproj",
+        "identifier" : "928479582BEF97B70078CE81",
+        "name" : "CroakTests"
+      }
+    }
+  ],
+  "version" : 1
+}
